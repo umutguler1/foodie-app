@@ -8,6 +8,7 @@ const navItemClasses =
 const navItemActiveClasses = `${navItemClasses} font-bold drop-shadow-md`;
 
 export default function Header() {
+  console.log(foodLogo);
   const cartItems = useSelector((state) => state.cart.items);
 
   const numberOfCartItems = cartItems.reduce((curNumber, item) => {
