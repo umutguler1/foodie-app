@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { cartActions } from "../store/cart-slice";
+import { cartActions } from "../../store/cart-slice";
 
 import { ToastContainer, toast } from "react-toastify";
 import { Flip } from "react-toastify";

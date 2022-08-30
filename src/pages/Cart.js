@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { useSelector } from "react-redux";
-import CartItem from "../Cart/CartItem";
+import CartItem from "../components/Cart/CartItem";
 
 export default function Cart() {
   const navigate = useNavigate();

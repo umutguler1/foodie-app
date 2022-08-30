@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { cartActions } from "../store/cart-slice";
+import { cartActions } from "../../store/cart-slice";
 
 export default function CartItem(props) {
   const { id, name, price, itemTotalPrice, quantity } = props;

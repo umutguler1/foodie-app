@@ -1,15 +1,15 @@
 import MealItem from "./MealItem";
 
-import baconBurgerImage from "../assets/bacon-burger.jpeg";
-import caesarSaladImage from "../assets/caesar-salad.jpg";
-import californiaRollImage from "../assets/california-roll.jpg";
-import capreseSaladImage from "../assets/caprese-salad.jpg";
-import cheeseburgerImage from "../assets/cheeseburger.png";
-import chicagoPizzaImage from "../assets/chicago-pizza.jpg";
-import hamburgerImage from "../assets/hamburger.png";
-import hawaiianPizzaImage from "../assets/hawaiian-pizza.jpg";
-import pepperoniPizzaImage from "../assets/pepperoni-pizza.png";
-import pizzaMargheritaImage from "../assets/pizza-margherita.jpg";
+import baconBurgerImage from "../../assets/bacon-burger.jpeg";
+import caesarSaladImage from "../../assets/caesar-salad.jpg";
+import californiaRollImage from "../../assets/california-roll.jpg";
+import capreseSaladImage from "../../assets/caprese-salad.jpg";
+import cheeseburgerImage from "../../assets/cheeseburger.png";
+import chicagoPizzaImage from "../../assets/chicago-pizza.jpg";
+import hamburgerImage from "../../assets/hamburger.png";
+import hawaiianPizzaImage from "../../assets/hawaiian-pizza.jpg";
+import pepperoniPizzaImage from "../../assets/pepperoni-pizza.png";
+import pizzaMargheritaImage from "../../assets/pizza-margherita.jpg";
 
 const DUMMY_MEALS = [
   {

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Categories from "../Categories";
-import Meals from "../Meals/Meals";
+import Categories from "../components/Categories";
+import Meals from "../components/Meals/Meals";
 
 export default function Menu() {
   const [selectedCategory, setSelectedCategory] = useState("first");

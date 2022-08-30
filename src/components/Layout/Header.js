@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import foodLogo from "../assets/food-logo.jpg";
+import foodLogo from "../../assets/food-logo.jpg";
 
 const navItemClasses =
   "flex bg-custom-yellow hover:bg-custom-black hover:text-custom-yellow transition-all rounded-full py-2 px-8 mx-2";

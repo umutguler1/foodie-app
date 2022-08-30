@@ -1,5 +1,5 @@
-import foods1 from "./assets/fast-food-set1.jpg";
-import foods2 from "./assets/fast-food-set2.jpg";
+import foods1 from "../assets/fast-food-set1.jpg";
+import foods2 from "../assets/fast-food-set2.jpg";
 
 export default function HomePageQuote() {
   return (
