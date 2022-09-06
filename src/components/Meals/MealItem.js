@@ -14,7 +14,6 @@ export default function MealItem(props) {
   const addButtonClickedClasses =
     "bg-custom-black text-custom-yellow scale-90 px-4 py-2 text-lg w-fit rounded-lg transition-all font-semibold place-self-center";
 
-  const [selectedButtonId, setSelectedButtonId] = useState("");
   const [buttonClasses, setButtonClasses] = useState(
     addButtonNotClickedClasses
   );
@@ -24,8 +23,6 @@ export default function MealItem(props) {
   const addToCartHandler = (event) => {
     dispatch(cartActions.addToCart({ id, name, price, type }));
 
-    setSelectedButtonId(event.target.id);
-    console.log(selectedButtonId);
     toast.success("Added to Cart!", {
       containerId: id,
       position: "top-right",
@@ -62,16 +59,7 @@ export default function MealItem(props) {
       <div className="grid gap-y-8 bg-custom-yellow rounded-l-lg p-2 text-center place-content-center w-[300px]">
         <h3 className="text-xl font-bold">{name}</h3>
         <p>Price:{` $${price.toFixed(2)}`}</p>
-        <button
-          id={id}
-          onClick={addToCartHandler}
-          className={
-            // id === selectedButtonId
-            //   ? addButtonClickedClasses
-            //   : addButtonNotClickedClasses
-            buttonClasses
-          }
-        >
+        <button id={id} onClick={addToCartHandler} className={buttonClasses}>
           Add to Cart
         </button>
       </div>

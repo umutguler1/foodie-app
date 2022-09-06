@@ -14,6 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Project Capabilities
+
+In the Menu page, you can choose from various meal options, and you can add them to your cart. The necessary notification will appear in both the meal item and in the Header part. In the header, you can see how many items there are in the cart.
+
+In the Cart, the total price will be calculated according to the individual prices of the meal items. You can also change the amounts of the meal items in the Cart which also leads to a recalculation of the total price. In the Cart page, when there is no item in the cart, you can navigate to the Menu easily.
+
+## URL
+
+The project is deployed using Netlify. URL: https://foodie-react-app.netlify.app/
+
 ## Styling
 
 All the styling is done with Tailwind CSS.
@@ -21,9 +31,3 @@ All the styling is done with Tailwind CSS.
 ## External Component(s)
 
 React Toastify is used for the notification when a meal is added to the cart.
-
-## Project Capabilities
-
-In the Menu page, you can choose from various meal options, and you can add them to your cart. The necessary notification will appear in both the meal item and in the Header part. In the header, you can see how many items there are in the cart.
-
-In the Cart, the total price will be calculated according to the individual prices of the meal items. You can also change the amounts of the meal items in the Cart which also leads to a recalculation of the total price. In the Cart page, when there is no item in the cart, you can navigate to the Menu easily.
